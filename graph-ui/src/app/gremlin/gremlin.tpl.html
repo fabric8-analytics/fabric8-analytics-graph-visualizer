@@ -1,0 +1,25 @@
+<div class="row gremlin">
+    <div class="col-md-3 col-sm-3">
+        <div class="row form-section">
+            <div class="sol-md-12 col-sm-12">
+                <h3 ng-bind="$ctrl.constants.queryBuilderHeader"></h3>
+            </div>
+            <div class="col-md-12 col-sm-12 token-section">
+                <input type="text" class="form-control" placeholder="{{$ctrl.constants.tokenPlaceholder}}" ng-model="$ctrl.tokenString">
+            </div>
+            <div class="col-md-12 col-sm-12 condition-section">
+                <span ng-bind="$ctrl.constants.andText"></span>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <key-value ng-repeat="keyValue in $ctrl.keyValueArray"></key-value>
+            </div>
+            <div class="col-md-12 col-sm-12 vis-button-section">
+                <button class="btn btn-primary" ng-bind="$ctrl.constants.submit" ng-click="$ctrl.visualize()"></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 col-sm-9 vis-area">
+        <span class="message"></span>
+        <visualization-gremlin gremlinquery="$ctrl.gremlinquery"></visualization-gremlin>
+    </div>
+</div>

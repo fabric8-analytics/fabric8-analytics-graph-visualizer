@@ -1,0 +1,19 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    main.home {
+        padding: 10px;
+        .header-section {
+            padding-bottom: 10px;
+            .host-string {
+                width: 500px;
+                display: inline-flex;
+            }
+            .middleware {
+                display: inline-flex;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.gremlin {
+    .form-section {
+        .token-section {
+            margin-bottom: 10px;
+            input {
+                width: 100%;
+            }
+        }
+        .condition-section {
+            margin-bottom: 6px;
+            text-align: center;
+        }
+    }
+    .vis-area {
+        padding-left: 0;
+        .message {
+            color: gray;
+        }
+    }
+}

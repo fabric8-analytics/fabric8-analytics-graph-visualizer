@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <h3 ng-bind="$ctrl.constants.visualizationNetworkx"></h3>
+    </div>
+    <div class="col-md-12 col-sm-12 actions">
+        <input class="form-control filterInput" type="text" placeholder="{{$ctrl.constants.vis.filterLabel}}" ng-model="$ctrl.filterText">
+        <button class="btn btn-secondary" ng-click="$ctrl.filter()" ng-bind="$ctrl.constants.vis.filterBtn"></button>
+        <button class="btn btn-secondary" ng-click="$ctrl.reset()" ng-bind="$ctrl.constants.vis.resetBtn"></button>
+    </div>
+    <div class="col-md-12 col-sm-12">
+        <div class="network-container-parent">
+            <div id="networkx-container"></div>
+        </div>
+    </div>
+</div>
