@@ -1,0 +1,25 @@
+.key-value {
+    .key-value-text {
+        margin-bottom: 10px;
+        .key-input,
+        .value-input {
+            padding-right: 0;
+            input {
+                width: 100%;
+            }
+        }
+    }
+    .add-button {
+        height: 34px;
+        padding-right: 0;
+        padding-left: 0;
+        i {
+            cursor: pointer;
+            margin-left: 8px;
+            transform: translateY(63%);
+            &.remove {
+                transform: translateY(70%);
+            }
+        }
+    }
+}

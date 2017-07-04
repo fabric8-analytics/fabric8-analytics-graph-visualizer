@@ -1,0 +1,1934 @@
+{
+  "dangling_package_list": [],
+  "kronos_viz_edge_list": [
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_microframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_webframework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_web",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_fullstack",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-3",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_framework",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python-2",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "c_python",
+      "from": "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+    },
+    {
+      "to": "docker-py",
+      "from": "c_python"
+    },
+    {
+      "to": "docker-py",
+      "from": "c_docker"
+    },
+    {
+      "to": "docker-py",
+      "from": "c_docker-engine-api"
+    },
+    {
+      "to": "docker-py",
+      "from": "c_python-library"
+    },
+    {
+      "to": "docker-py",
+      "from": "c_docker-swarm"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_django"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_workflow-engine"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_workflow"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_bpmn"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_python"
+    },
+    {
+      "to": "viewflow",
+      "from": "c_process-engine"
+    },
+    {
+      "to": "mpl-probscale",
+      "from": "c_matplotlib"
+    },
+    {
+      "to": "mpl-probscale",
+      "from": "c_probability-scales"
+    },
+    {
+      "to": "mpl-probscale",
+      "from": "c_visualization"
+    },
+    {
+      "to": "flywheel",
+      "from": "c_python"
+    },
+    {
+      "to": "flywheel",
+      "from": "c_aws"
+    },
+    {
+      "to": "flywheel",
+      "from": "c_dynamodb"
+    },
+    {
+      "to": "flywheel",
+      "from": "c_orm"
+    },
+    {
+      "to": "pyramid",
+      "from": "c_python"
+    },
+    {
+      "to": "pyramid",
+      "from": "c_wsgi"
+    },
+    {
+      "to": "pyramid",
+      "from": "c_pylons"
+    },
+    {
+      "to": "pyramid",
+      "from": "c_web-frameworks"
+    },
+    {
+      "to": "kivy",
+      "from": "c_python"
+    },
+    {
+      "to": "kivy",
+      "from": "c_ui"
+    },
+    {
+      "to": "kivy",
+      "from": "c_windows"
+    },
+    {
+      "to": "kivy",
+      "from": "c_ios"
+    },
+    {
+      "to": "kivy",
+      "from": "c_android"
+    },
+    {
+      "to": "kivy",
+      "from": "c_macos"
+    },
+    {
+      "to": "kivy",
+      "from": "c_linux"
+    },
+    {
+      "to": "kivy",
+      "from": "c_app"
+    },
+    {
+      "to": "asylum",
+      "from": "c_linux virtual"
+    },
+    {
+      "to": "asylum",
+      "from": "c_virtualistion"
+    },
+    {
+      "to": "asylum",
+      "from": "c_lxc"
+    },
+    {
+      "to": "asylum",
+      "from": "c_openvz"
+    },
+    {
+      "to": "asylum",
+      "from": "c_container"
+    },
+    {
+      "to": "asylum",
+      "from": "c_containerization"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_python"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_python-3"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_python-2"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_framework"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_webframework"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_web"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_microframework"
+    },
+    {
+      "to": "turbogear",
+      "from": "c_fullstack"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_python"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_visualization"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_analysis"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_bokeh"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_matplotlib"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_interactive"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_data-science"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_exploratory-data-analysis"
+    },
+    {
+      "to": "holoviews",
+      "from": "c_pandas"
+    },
+    {
+      "to": "compose",
+      "from": "c_docker"
+    },
+    {
+      "to": "compose",
+      "from": "c_python"
+    },
+    {
+      "to": "compose",
+      "from": "c_docker-compose"
+    },
+    {
+      "to": "compose",
+      "from": "c_orchestration"
+    },
+    {
+      "to": "remi",
+      "from": "c_python"
+    },
+    {
+      "to": "remi",
+      "from": "c_ui"
+    },
+    {
+      "to": "remi",
+      "from": "c_gui"
+    },
+    {
+      "to": "remi",
+      "from": "c_gui-library"
+    },
+    {
+      "to": "remi",
+      "from": "c_platform-independent"
+    },
+    {
+      "to": "remi",
+      "from": "c_remi"
+    },
+    {
+      "to": "flask",
+      "from": "c_python"
+    },
+    {
+      "to": "flask",
+      "from": "c_flask"
+    },
+    {
+      "to": "flask",
+      "from": "c_wsgi"
+    },
+    {
+      "to": "flask",
+      "from": "c_web-framework"
+    },
+    {
+      "to": "psycopg2",
+      "from": "c_python"
+    },
+    {
+      "to": "psycopg2",
+      "from": "c_database"
+    },
+    {
+      "to": "psycopg2",
+      "from": "c_driver"
+    },
+    {
+      "to": "psycopg2",
+      "from": "c_postgresql"
+    },
+    {
+      "to": "tinydb",
+      "from": "c_python"
+    },
+    {
+      "to": "tinydb",
+      "from": "c_nosql"
+    },
+    {
+      "to": "tinydb",
+      "from": "c_database"
+    },
+    {
+      "to": "tinydb",
+      "from": "c_documentdb"
+    },
+    {
+      "to": "tinydb",
+      "from": "c_json"
+    },
+    {
+      "to": "foremast",
+      "from": "c_spinnaker"
+    },
+    {
+      "to": "foremast",
+      "from": "c_devops"
+    },
+    {
+      "to": "foremast",
+      "from": "c_aws"
+    },
+    {
+      "to": "foremast",
+      "from": "c_python"
+    },
+    {
+      "to": "celery",
+      "from": "c_task"
+    },
+    {
+      "to": "celery",
+      "from": "c_job queue"
+    },
+    {
+      "to": "celery",
+      "from": "c_distributed"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_python"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_dashboard"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_interactive"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_visualization"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_webapp"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_flask"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_react"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_socket-io"
+    },
+    {
+      "to": "bowtie",
+      "from": "c_plotly"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_python"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_resolver"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_dns"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_asyncio"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_asynchronous"
+    },
+    {
+      "to": "berserker_resolver",
+      "from": "c_load-balancer"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_bokeh"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_python"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_interactive-plots"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_javascript"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_visualization"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_plotting"
+    },
+    {
+      "to": "bokeh",
+      "from": "c_plots"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_flask"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_visualizaton"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_dataviz"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_chart-json"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_d3"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_plotly"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_c3"
+    },
+    {
+      "to": "flask_jsondash",
+      "from": "c_dashboard"
+    },
+    {
+      "to": "tornado",
+      "from": "c_python"
+    },
+    {
+      "to": "tornado",
+      "from": "c_asynchronous"
+    },
+    {
+      "to": "zodb",
+      "from": "c_python"
+    },
+    {
+      "to": "zodb",
+      "from": "c_database"
+    },
+    {
+      "to": "mysqlclient-python",
+      "from": "c_python"
+    },
+    {
+      "to": "mysqlclient-python",
+      "from": "c_mysql-db"
+    },
+    {
+      "to": "mysqlclient-python",
+      "from": "c_mysql-client"
+    },
+    {
+      "to": "django-cacheops",
+      "from": "c_django"
+    },
+    {
+      "to": "django-cacheops",
+      "from": "c_caching"
+    },
+    {
+      "to": "django-cacheops",
+      "from": "c_python"
+    },
+    {
+      "to": "django-cacheops",
+      "from": "c_orm"
+    },
+    {
+      "to": "madcore",
+      "from": "c_aws"
+    },
+    {
+      "to": "madcore",
+      "from": "c_infrastructure"
+    },
+    {
+      "to": "madcore",
+      "from": "c_kubernetes"
+    },
+    {
+      "to": "madcore",
+      "from": "c_cluster"
+    },
+    {
+      "to": "madcore",
+      "from": "c_machine learning"
+    },
+    {
+      "to": "madcore",
+      "from": "c_gpu"
+    },
+    {
+      "to": "huey",
+      "from": "c_redis"
+    },
+    {
+      "to": "huey",
+      "from": "c_python"
+    },
+    {
+      "to": "huey",
+      "from": "c_task-queue"
+    },
+    {
+      "to": "huey",
+      "from": "c_queue"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_python"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_database-connector"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_oracle-db"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_oracle-database"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_db-connection"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_python-library"
+    },
+    {
+      "to": "python-cx_oracle",
+      "from": "c_python-module"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_realtime"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_stream-processing"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_analytics"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_sql"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_push"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_postgresql"
+    },
+    {
+      "to": "pipelinedb",
+      "from": "c_pipelinedb"
+    },
+    {
+      "to": "peewee",
+      "from": "c_python"
+    },
+    {
+      "to": "peewee",
+      "from": "c_orm"
+    },
+    {
+      "to": "peewee",
+      "from": "c_sqlite"
+    },
+    {
+      "to": "peewee",
+      "from": "c_postgresql"
+    },
+    {
+      "to": "peewee",
+      "from": "c_mysql"
+    },
+    {
+      "to": "peewee",
+      "from": "c_database"
+    },
+    {
+      "to": "peewee",
+      "from": "c_sql"
+    },
+    {
+      "to": "peewee",
+      "from": "c_peewee"
+    },
+    {
+      "to": "eve",
+      "from": "c_python"
+    },
+    {
+      "to": "eve",
+      "from": "c_rest"
+    },
+    {
+      "to": "eve",
+      "from": "c_flask"
+    },
+    {
+      "to": "eve",
+      "from": "c_mongodb"
+    },
+    {
+      "to": "django",
+      "from": "c_python"
+    },
+    {
+      "to": "django",
+      "from": "c_django"
+    },
+    {
+      "to": "django",
+      "from": "c_web"
+    },
+    {
+      "to": "django",
+      "from": "c_framework"
+    },
+    {
+      "to": "django",
+      "from": "c_orm"
+    },
+    {
+      "to": "django",
+      "from": "c_templates"
+    },
+    {
+      "to": "django",
+      "from": "c_models"
+    },
+    {
+      "to": "django",
+      "from": "c_views"
+    },
+    {
+      "to": "django",
+      "from": "c_apps"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_twisted"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_tcp"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_load"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_load balancer"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_load balancing"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_pydirector"
+    },
+    {
+      "to": "txloadbalancer",
+      "from": "c_pythondirector"
+    },
+    {
+      "to": "flexx",
+      "from": "c_python"
+    },
+    {
+      "to": "flexx",
+      "from": "c_ui"
+    },
+    {
+      "to": "flexx",
+      "from": "c_web"
+    },
+    {
+      "to": "flexx",
+      "from": "c_html5"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_workflow"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_spiff-workflow"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_python"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_workflow-specification"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_bpmn"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_bpmn-engine"
+    },
+    {
+      "to": "spiff workflow",
+      "from": "c_workflowpatterns"
+    },
+    {
+      "to": "senza",
+      "from": "c_python"
+    },
+    {
+      "to": "senza",
+      "from": "c_aws-cloudformation"
+    },
+    {
+      "to": "troposphere",
+      "from": "c_python"
+    },
+    {
+      "to": "troposphere",
+      "from": "c_aws-cloudformation"
+    },
+    {
+      "to": "powershift",
+      "from": "c_openshift"
+    },
+    {
+      "to": "powershift",
+      "from": "c_pluggable"
+    },
+    {
+      "to": "powershift",
+      "from": "c_containerization"
+    }
+  ],
+  "component_dependency_map": {
+    "c_orchestration": [
+      "compose"
+    ],
+    "c_aws": [
+      "flywheel",
+      "foremast",
+      "madcore"
+    ],
+    "c_openshift": [
+      "powershift"
+    ],
+    "c_django": [
+      "viewflow",
+      "django-cacheops",
+      "django"
+    ],
+    "c_stream-processing": [
+      "pipelinedb"
+    ],
+    "c_python-module": [
+      "python-cx_oracle"
+    ],
+    "c_analytics": [
+      "pipelinedb"
+    ],
+    "c_docker": [
+      "docker-py",
+      "compose"
+    ],
+    "c_database": [
+      "psycopg2",
+      "tinydb",
+      "zodb",
+      "peewee"
+    ],
+    "c_driver": [
+      "psycopg2"
+    ],
+    "c_load balancer": [
+      "txloadbalancer"
+    ],
+    "c_wsgi": [
+      "pyramid",
+      "flask"
+    ],
+    "c_plots": [
+      "bokeh"
+    ],
+    "c_infrastructure": [
+      "madcore"
+    ],
+    "c_c3": [
+      "flask_jsondash"
+    ],
+    "c_linux": [
+      "kivy"
+    ],
+    "c_caching": [
+      "django-cacheops"
+    ],
+    "c_plotly": [
+      "bowtie",
+      "flask_jsondash"
+    ],
+    "c_asyncio": [
+      "berserker_resolver"
+    ],
+    "c_templates": [
+      "django"
+    ],
+    "c_gpu": [
+      "madcore"
+    ],
+    "c_models": [
+      "django"
+    ],
+    "c_bpmn-engine": [
+      "spiff workflow"
+    ],
+    "c_spiff-workflow": [
+      "spiff workflow"
+    ],
+    "c_load": [
+      "txloadbalancer"
+    ],
+    "c_interactive": [
+      "holoviews",
+      "bowtie"
+    ],
+    "c_dashboard": [
+      "bowtie",
+      "flask_jsondash"
+    ],
+    "c_docker-swarm": [
+      "docker-py"
+    ],
+    "c_python-3": [
+      "turbogear"
+    ],
+    "c_python-2": [
+      "turbogear"
+    ],
+    "c_webframework": [
+      "turbogear"
+    ],
+    "c_mysql": [
+      "peewee"
+    ],
+    "c_flask": [
+      "flask",
+      "bowtie",
+      "flask_jsondash",
+      "eve"
+    ],
+    "c_android": [
+      "kivy"
+    ],
+    "c_nosql": [
+      "tinydb"
+    ],
+    "c_gui": [
+      "remi"
+    ],
+    "c_oracle-database": [
+      "python-cx_oracle"
+    ],
+    "c_analysis": [
+      "holoviews"
+    ],
+    "c_javascript": [
+      "bokeh"
+    ],
+    "c_web-framework": [
+      "flask"
+    ],
+    "c_react": [
+      "bowtie"
+    ],
+    "c_job queue": [
+      "celery"
+    ],
+    "c_views": [
+      "django"
+    ],
+    "c_task": [
+      "celery"
+    ],
+    "c_postgresql": [
+      "psycopg2",
+      "pipelinedb",
+      "peewee"
+    ],
+    "c_webapp": [
+      "bowtie"
+    ],
+    "c_dataviz": [
+      "flask_jsondash"
+    ],
+    "c_realtime": [
+      "pipelinedb"
+    ],
+    "c_containerization": [
+      "asylum",
+      "powershift"
+    ],
+    "c_framework": [
+      "turbogear",
+      "django"
+    ],
+    "c_windows": [
+      "kivy"
+    ],
+    "c_matplotlib": [
+      "mpl-probscale",
+      "holoviews"
+    ],
+    "c_push": [
+      "pipelinedb"
+    ],
+    "c_dns": [
+      "berserker_resolver"
+    ],
+    "c_pythondirector": [
+      "txloadbalancer"
+    ],
+    "c_pylons": [
+      "pyramid"
+    ],
+    "c_platform-independent": [
+      "remi"
+    ],
+    "c_asynchronous": [
+      "berserker_resolver",
+      "tornado"
+    ],
+    "c_microframework": [
+      "turbogear"
+    ],
+    "c_spinnaker": [
+      "foremast"
+    ],
+    "c_distributed": [
+      "celery"
+    ],
+    "c_oracle-db": [
+      "python-cx_oracle"
+    ],
+    "c_json": [
+      "tinydb"
+    ],
+    "c_web": [
+      "turbogear",
+      "django",
+      "flexx"
+    ],
+    "c_fullstack": [
+      "turbogear"
+    ],
+    "c_task-queue": [
+      "huey"
+    ],
+    "c_db-connection": [
+      "python-cx_oracle"
+    ],
+    "c_workflow": [
+      "viewflow",
+      "spiff workflow"
+    ],
+    "c_pipelinedb": [
+      "pipelinedb"
+    ],
+    "c_machine learning": [
+      "madcore"
+    ],
+    "c_peewee": [
+      "peewee"
+    ],
+    "c_visualization": [
+      "mpl-probscale",
+      "holoviews",
+      "bowtie",
+      "bokeh"
+    ],
+    "c_workflowpatterns": [
+      "spiff workflow"
+    ],
+    "c_process-engine": [
+      "viewflow"
+    ],
+    "c_interactive-plots": [
+      "bokeh"
+    ],
+    "c_aws-cloudformation": [
+      "senza",
+      "troposphere"
+    ],
+    "c_mysql-db": [
+      "mysqlclient-python"
+    ],
+    "c_sql": [
+      "pipelinedb",
+      "peewee"
+    ],
+    "c_mysql-client": [
+      "mysqlclient-python"
+    ],
+    "c_queue": [
+      "huey"
+    ],
+    "c_load-balancer": [
+      "berserker_resolver"
+    ],
+    "c_chart-json": [
+      "flask_jsondash"
+    ],
+    "c_html5": [
+      "flexx"
+    ],
+    "c_virtualistion": [
+      "asylum"
+    ],
+    "c_orm": [
+      "flywheel",
+      "django-cacheops",
+      "peewee",
+      "django"
+    ],
+    "c_remi": [
+      "remi"
+    ],
+    "c_kubernetes": [
+      "madcore"
+    ],
+    "c_app": [
+      "kivy"
+    ],
+    "c_d3": [
+      "flask_jsondash"
+    ],
+    "c_openvz": [
+      "asylum"
+    ],
+    "c_bokeh": [
+      "holoviews",
+      "bokeh"
+    ],
+    "c_devops": [
+      "foremast"
+    ],
+    "c_python": [
+      "docker-py",
+      "viewflow",
+      "flywheel",
+      "pyramid",
+      "kivy",
+      "turbogear",
+      "holoviews",
+      "compose",
+      "remi",
+      "flask",
+      "psycopg2",
+      "tinydb",
+      "foremast",
+      "bowtie",
+      "berserker_resolver",
+      "bokeh",
+      "tornado",
+      "zodb",
+      "mysqlclient-python",
+      "django-cacheops",
+      "huey",
+      "python-cx_oracle",
+      "peewee",
+      "eve",
+      "django",
+      "flexx",
+      "spiff workflow",
+      "senza",
+      "troposphere"
+    ],
+    "c_load balancing": [
+      "txloadbalancer"
+    ],
+    "c_mongodb": [
+      "eve"
+    ],
+    "c_sqlite": [
+      "peewee"
+    ],
+    "c_gui-library": [
+      "remi"
+    ],
+    "c_pydirector": [
+      "txloadbalancer"
+    ],
+    "c_tcp": [
+      "txloadbalancer"
+    ],
+    "c_data-science": [
+      "holoviews"
+    ],
+    "c_ios": [
+      "kivy"
+    ],
+    "c_ui": [
+      "kivy",
+      "remi",
+      "flexx"
+    ],
+    "c_redis": [
+      "huey"
+    ],
+    "c_plotting": [
+      "bokeh"
+    ],
+    "c_documentdb": [
+      "tinydb"
+    ],
+    "c_exploratory-data-analysis": [
+      "holoviews"
+    ],
+    "c_workflow-engine": [
+      "viewflow"
+    ],
+    "c_pluggable": [
+      "powershift"
+    ],
+    "c_workflow-specification": [
+      "spiff workflow"
+    ],
+    "c_visualizaton": [
+      "flask_jsondash"
+    ],
+    "c_socket-io": [
+      "bowtie"
+    ],
+    "c_container": [
+      "asylum"
+    ],
+    "c_docker-compose": [
+      "compose"
+    ],
+    "c_lxc": [
+      "asylum"
+    ],
+    "c_pandas": [
+      "holoviews"
+    ],
+    "c_rest": [
+      "eve"
+    ],
+    "c_database-connector": [
+      "python-cx_oracle"
+    ],
+    "c_apps": [
+      "django"
+    ],
+    "c_macos": [
+      "kivy"
+    ],
+    "c_bpmn": [
+      "viewflow",
+      "spiff workflow"
+    ],
+    "c_dynamodb": [
+      "flywheel"
+    ],
+    "c_cluster": [
+      "madcore"
+    ],
+    "c_python-library": [
+      "docker-py",
+      "python-cx_oracle"
+    ],
+    "c_linux virtual": [
+      "asylum"
+    ],
+    "c_twisted": [
+      "txloadbalancer"
+    ],
+    "c_docker-engine-api": [
+      "docker-py"
+    ],
+    "c_resolver": [
+      "berserker_resolver"
+    ],
+    "c_probability-scales": [
+      "mpl-probscale"
+    ],
+    "c_web-frameworks": [
+      "pyramid"
+    ]
+  },
+  "parent_tuple_list": "((137, 53, 145, 168, 73), (49, 152, 112, 165, 137, 118), (96, 170, 116), (137, 47, 166, 129), (137, 57, 100, 174), (137, 147, 95, 148, 78, 164, 61, 132), (169, 128, 159, 134, 157, 93), (137, 74, 75, 58, 76, 108, 113, 109), (137, 116, 82, 135, 96, 71, 144, 151, 160), (53, 137, 158, 46), (137, 147, 80, 141, 101, 130), (137, 77, 57, 84), (137, 150, 55, 89), (137, 79, 150, 54, 107), (119, 136, 47, 137), (88, 86, 105), (137, 72, 71, 116, 90, 77, 85, 171, 63), (137, 172, 98, 64, 102, 125), (135, 137, 104, 83, 116, 149, 94), (77, 155, 91, 126, 133, 63, 60, 72), (137, 102), (137, 150), (137, 121, 123), (49, 62, 137, 129), (47, 59, 131, 167, 114, 66), (146, 137, 110, 124), (137, 162, 106, 81, 111, 168, 51), (92, 50, 52, 122, 97, 89, 103), (137, 129, 140, 89, 156, 150, 122, 115), (137, 161, 77, 139), (137, 49, 108, 58, 129, 65, 67, 87, 163), (173, 143, 70, 56, 138, 142, 99), (137, 147, 108, 127), (112, 69, 137, 154, 165, 68, 117), (137, 120), (137, 120), (48, 153, 93), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (37, 39, 40, 41, 42, 43, 44, 45), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (37, 38, 39, 40, 42, 43, 44, 45), (37, 38, 39, 41, 42, 43, 44, 45), (37, 38, 40, 41, 42, 43, 44, 45), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (37, 38, 39, 40, 41, 43, 44, 45), (37, 38, 39, 40, 41, 42, 44, 45), (), (), (), (37, 38, 39, 40, 41, 42, 43, 45), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (38, 39, 40, 41, 42, 43, 44, 45), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), (), ())",
+  "node_list": [
+    "docker-py",
+    "viewflow",
+    "mpl-probscale",
+    "flywheel",
+    "pyramid",
+    "kivy",
+    "asylum",
+    "turbogear",
+    "holoviews",
+    "compose",
+    "remi",
+    "flask",
+    "psycopg2",
+    "tinydb",
+    "foremast",
+    "celery",
+    "bowtie",
+    "berserker_resolver",
+    "bokeh",
+    "flask_jsondash",
+    "tornado",
+    "zodb",
+    "mysqlclient-python",
+    "django-cacheops",
+    "madcore",
+    "huey",
+    "python-cx_oracle",
+    "pipelinedb",
+    "peewee",
+    "eve",
+    "django",
+    "txloadbalancer",
+    "flexx",
+    "spiff workflow",
+    "senza",
+    "troposphere",
+    "powershift",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python",
+    "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python",
+    "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_orchestration",
+    "c_aws",
+    "c_openshift",
+    "c_django",
+    "c_stream-processing",
+    "c_python-module",
+    "c_analytics",
+    "c_docker",
+    "c_documentdb",
+    "c_driver",
+    "c_load balancer",
+    "c_wsgi",
+    "c_framework",
+    "c_infrastructure",
+    "c_c3",
+    "c_linux",
+    "c_caching",
+    "c_plotly",
+    "c_asyncio",
+    "c_templates",
+    "c_gpu",
+    "c_models",
+    "c_bpmn-engine",
+    "c_spiff-workflow",
+    "c_load",
+    "c_interactive",
+    "c_dashboard",
+    "c_docker-swarm",
+    "c_python-3",
+    "c_python-2",
+    "c_webframework",
+    "c_flask",
+    "c_android",
+    "c_nosql",
+    "c_gui",
+    "c_oracle-database",
+    "c_analysis",
+    "c_javascript",
+    "c_web-framework",
+    "c_react",
+    "c_job queue",
+    "c_views",
+    "c_task",
+    "c_postgresql",
+    "c_webapp",
+    "c_dataviz",
+    "c_realtime",
+    "c_containerization",
+    "c_plots",
+    "c_windows",
+    "c_matplotlib",
+    "c_push",
+    "c_dns",
+    "c_pythondirector",
+    "c_pylons",
+    "c_platform-independent",
+    "c_asynchronous",
+    "c_pipelinedb",
+    "c_interactive-plots",
+    "c_distributed",
+    "c_oracle-db",
+    "c_json",
+    "c_web",
+    "c_fullstack",
+    "c_task-queue",
+    "c_db-connection",
+    "c_workflow",
+    "c_microframework",
+    "c_machine learning",
+    "c_peewee",
+    "c_visualization",
+    "c_workflowpatterns",
+    "c_process-engine",
+    "c_spinnaker",
+    "c_aws-cloudformation",
+    "c_mysql-db",
+    "c_sql",
+    "c_mysql-client",
+    "c_queue",
+    "c_load-balancer",
+    "c_chart-json",
+    "c_html5",
+    "c_virtualistion",
+    "c_orm",
+    "c_remi",
+    "c_kubernetes",
+    "c_app",
+    "c_d3",
+    "c_openvz",
+    "c_bokeh",
+    "c_devops",
+    "c_python",
+    "c_load balancing",
+    "c_mongodb",
+    "c_sqlite",
+    "c_gui-library",
+    "c_pydirector",
+    "c_tcp",
+    "c_data-science",
+    "c_docker-engine-api",
+    "c_redis",
+    "c_ui",
+    "c_ios",
+    "c_plotting",
+    "c_database",
+    "c_exploratory-data-analysis",
+    "c_workflow-engine",
+    "c_pluggable",
+    "c_workflow-specification",
+    "c_visualizaton",
+    "c_mysql",
+    "c_container",
+    "c_docker-compose",
+    "c_lxc",
+    "c_pandas",
+    "c_rest",
+    "c_database-connector",
+    "c_apps",
+    "c_macos",
+    "c_bpmn",
+    "c_dynamodb",
+    "c_cluster",
+    "c_python-library",
+    "c_linux virtual",
+    "c_probability-scales",
+    "c_socket-io",
+    "c_resolver",
+    "c_twisted",
+    "c_web-frameworks"
+  ],
+  "package_list": [
+    "docker-py",
+    "viewflow",
+    "mpl-probscale",
+    "flywheel",
+    "pyramid",
+    "kivy",
+    "asylum",
+    "turbogear",
+    "holoviews",
+    "compose",
+    "remi",
+    "flask",
+    "psycopg2",
+    "tinydb",
+    "foremast",
+    "celery",
+    "bowtie",
+    "berserker_resolver",
+    "bokeh",
+    "flask_jsondash",
+    "tornado",
+    "zodb",
+    "mysqlclient-python",
+    "django-cacheops",
+    "madcore",
+    "huey",
+    "python-cx_oracle",
+    "pipelinedb",
+    "peewee",
+    "eve",
+    "django",
+    "txloadbalancer",
+    "flexx",
+    "spiff workflow",
+    "senza",
+    "troposphere",
+    "powershift"
+  ],
+  "intent_dependency_map": {
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python-2"
+    ],
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python": [
+      "c_microframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python"
+    ],
+    "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_python-3",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python": [
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ],
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python": [
+      "c_microframework",
+      "c_webframework",
+      "c_web",
+      "c_fullstack",
+      "c_python-3",
+      "c_framework",
+      "c_python-2",
+      "c_python"
+    ]
+  },
+  "intent_list": [
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_python-2c_python",
+    "c_microframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_python-3c_frameworkc_python-2c_python",
+    "c_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python",
+    "c_microframeworkc_webframeworkc_webc_fullstackc_python-3c_frameworkc_python-2c_python"
+  ],
+  "component_class_list": [
+    "c_orchestration",
+    "c_aws",
+    "c_openshift",
+    "c_django",
+    "c_stream-processing",
+    "c_python-module",
+    "c_analytics",
+    "c_docker",
+    "c_documentdb",
+    "c_driver",
+    "c_load balancer",
+    "c_wsgi",
+    "c_framework",
+    "c_infrastructure",
+    "c_c3",
+    "c_linux",
+    "c_caching",
+    "c_plotly",
+    "c_asyncio",
+    "c_templates",
+    "c_gpu",
+    "c_models",
+    "c_bpmn-engine",
+    "c_spiff-workflow",
+    "c_load",
+    "c_interactive",
+    "c_dashboard",
+    "c_docker-swarm",
+    "c_python-3",
+    "c_python-2",
+    "c_webframework",
+    "c_flask",
+    "c_android",
+    "c_nosql",
+    "c_gui",
+    "c_oracle-database",
+    "c_analysis",
+    "c_javascript",
+    "c_web-framework",
+    "c_react",
+    "c_job queue",
+    "c_views",
+    "c_task",
+    "c_postgresql",
+    "c_webapp",
+    "c_dataviz",
+    "c_realtime",
+    "c_containerization",
+    "c_plots",
+    "c_windows",
+    "c_matplotlib",
+    "c_push",
+    "c_dns",
+    "c_pythondirector",
+    "c_pylons",
+    "c_platform-independent",
+    "c_asynchronous",
+    "c_pipelinedb",
+    "c_interactive-plots",
+    "c_distributed",
+    "c_oracle-db",
+    "c_json",
+    "c_web",
+    "c_fullstack",
+    "c_task-queue",
+    "c_db-connection",
+    "c_workflow",
+    "c_microframework",
+    "c_machine learning",
+    "c_peewee",
+    "c_visualization",
+    "c_workflowpatterns",
+    "c_process-engine",
+    "c_spinnaker",
+    "c_aws-cloudformation",
+    "c_mysql-db",
+    "c_sql",
+    "c_mysql-client",
+    "c_queue",
+    "c_load-balancer",
+    "c_chart-json",
+    "c_html5",
+    "c_virtualistion",
+    "c_orm",
+    "c_remi",
+    "c_kubernetes",
+    "c_app",
+    "c_d3",
+    "c_openvz",
+    "c_bokeh",
+    "c_devops",
+    "c_python",
+    "c_load balancing",
+    "c_mongodb",
+    "c_sqlite",
+    "c_gui-library",
+    "c_pydirector",
+    "c_tcp",
+    "c_data-science",
+    "c_docker-engine-api",
+    "c_redis",
+    "c_ui",
+    "c_ios",
+    "c_plotting",
+    "c_database",
+    "c_exploratory-data-analysis",
+    "c_workflow-engine",
+    "c_pluggable",
+    "c_workflow-specification",
+    "c_visualizaton",
+    "c_mysql",
+    "c_container",
+    "c_docker-compose",
+    "c_lxc",
+    "c_pandas",
+    "c_rest",
+    "c_database-connector",
+    "c_apps",
+    "c_macos",
+    "c_bpmn",
+    "c_dynamodb",
+    "c_cluster",
+    "c_python-library",
+    "c_linux virtual",
+    "c_probability-scales",
+    "c_socket-io",
+    "c_resolver",
+    "c_twisted",
+    "c_web-frameworks"
+  ]
+}

@@ -1,0 +1,18 @@
+<main class="container-fluid home">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 header-section">
+            <h2 ng-bind="$ctrl.constants.header"></h2>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <input class="form-control host-string" type="text" placeholder="{{$ctrl.constants.endPoint}}" ng-model="$ctrl.host">
+                    <select class="form-control middleware" ng-change="$ctrl.onChangeMiddleware()" ng-model="$ctrl.middleware">
+                        <option ng-repeat="option in $ctrl.middlewareOptions" value="{{option.value}}">{{option.text}}</option>
+                    </select>
+                    <button class="btn btn-seconday" ng-bind="$ctrl.constants.proceed" ng-if="$ctrl.middleware === 'gremlin'" ng-click="$ctrl.proceedForGremlin()"></button>
+                    <button class="btn btn-primary" ng-bind="$ctrl.constants.submit" ng-if="$ctrl.middleware === 'networkx'" ng-click="$ctrl.visualizeNetworkX()"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ui-view></ui-view>
+</main>

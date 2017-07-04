@@ -1,0 +1,8 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import './app/home/home';
+@import './app/gremlin/gremlin';
+@import './app/gremlin/query-builder/query-builder';
+@import './app/gremlin/visualization/visualization';
+@import './app/networkx/networkx';
+@import './app/networkx/visualization/visualization';
