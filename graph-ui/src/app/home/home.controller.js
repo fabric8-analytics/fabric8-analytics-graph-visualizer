@@ -9,7 +9,7 @@ class HomeController {
             value: 'gremlin',
             text: this.constants.middleware.gremlin
         }, {
-            value: 'networkx',
+            value: 'kronos',
             text: this.constants.middleware.networkx
         }];
         this.host = null;
@@ -29,8 +29,8 @@ class HomeController {
     }
 
     visualizeNetworkX() {
-        if (this.middleware !== 'default' && this.middleware === 'networkx') {
-            this.$state.go('home.networkx', {
+        if (this.middleware !== 'default' && this.middleware === 'kronos') {
+            this.$state.go('home.kronos', {
                 host: this.host
             });
         }

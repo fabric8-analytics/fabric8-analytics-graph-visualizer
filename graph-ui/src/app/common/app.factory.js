@@ -3,22 +3,22 @@ import * as _ from 'lodash';
 let appFactory = () => {
     let factoryObj = {
         findNode: (id, nodes) => {
-            var node = {};
-            nodes.forEach(function (item) {
-                if (item.id == id) {
+            let node = {};
+            nodes.forEach((item) => {
+                if (item.id === id) {
                     node = item;
                 }
             });
             return node;
         },
-        isItemPushed: (id, items) => {
-            var bool = false;
-            items.forEach(function (item) {
-                if (item.id == id) {
-                    bool = true;
+        isNodeExistsInDataset: (value, key, dataset) => {
+            let nodes = dataset['_data'];
+            for (let node in nodes) {
+                if (nodes.hasOwnProperty(node) && nodes[node][key] === value) {
+                    return true;
                 }
-            });
-            return bool;
+            }
+            return false;
         }
     };
 
