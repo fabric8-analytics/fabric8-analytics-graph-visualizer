@@ -9,7 +9,7 @@
                         <option ng-repeat="option in $ctrl.middlewareOptions" value="{{option.value}}">{{option.text}}</option>
                     </select>
                     <button class="btn btn-seconday" ng-bind="$ctrl.constants.proceed" ng-if="$ctrl.middleware === 'gremlin'" ng-click="$ctrl.proceedForGremlin()"></button>
-                    <button class="btn btn-primary" ng-bind="$ctrl.constants.submit" ng-if="$ctrl.middleware === 'networkx'" ng-click="$ctrl.visualizeNetworkX()"></button>
+                    <button class="btn btn-primary" ng-bind="$ctrl.constants.submit" ng-if="$ctrl.middleware === 'kronos'" ng-click="$ctrl.visualizeNetworkX()"></button>
                 </div>
             </div>
         </div>

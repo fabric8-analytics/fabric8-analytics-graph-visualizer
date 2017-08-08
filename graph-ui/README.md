@@ -13,7 +13,9 @@
 - Click button `Proceed`
 - Click `Visualize`
 
-## NetworkX
-- Use this url as the host name `http://localhost:3000/data/kronosgraph.json`
-- Select `NetworkX` from the dropdown.
+## Kronos
+- Use the below urls as the host name 
+    * `Maven`: `http://kronos-maven-stack-analysis.dev.rdu2c.fabric8.io/api/v1/schemas/kronos_dependency_retrieval`
+    * `pypi`: `http://kronos-pypi-stack-analysis.dev.rdu2c.fabric8.io/api/v1/schemas/kronos_dependency_retrieval`
+- Select `Kronos` from the dropdown.
 - Click button `Visualize`

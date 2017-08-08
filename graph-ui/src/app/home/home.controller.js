@@ -10,7 +10,7 @@ class HomeController {
             text: this.constants.middleware.gremlin
         }, {
             value: 'kronos',
-            text: this.constants.middleware.networkx
+            text: this.constants.middleware.kronos
         }];
         this.host = null;
         this.middleware = this.middlewareOptions[0].value;
