@@ -4,7 +4,7 @@ let constants = {
     middleware: {
         default: 'Select middleware',
         gremlin: 'Gremlin',
-        networkx: 'Kronos'
+        kronos: 'Kronos'
     },
     queryBuilderHeader: 'Query Builder',
     tokenPlaceholder: 'Enter tokens here',
@@ -12,7 +12,7 @@ let constants = {
     proceed: 'Proceed',
     submit: 'Visualize',
     visualizationGremlin: 'Visualization for Gremlin',
-    visualizationNetworkx: 'Visualization for Kronos',
+    visualizationKronos: 'Visualization for Kronos',
     keyPlaceholder: 'Enter key',
     valuePlaceholder: 'Enter value',
     vis: {

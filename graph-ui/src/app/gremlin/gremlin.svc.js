@@ -19,7 +19,7 @@ class GraphService {
             }
             if (jsonData.data.result && jsonData.data.result.data && jsonData.data.result.data.length > 0) {
                 jsonData.data.result.data.forEach((item, index) => {
-                    if (!this.appFactory.isItemPushed(item.id, networkData.nodes)) {
+                    if (!this.appFactory.isNodeExistsInDataset(item.id, 'id', networkData.nodes)) {
                         let pkgName = '';
                         if (item.properties.name) {
                             pkgName = item.properties.name[0].value;
@@ -54,7 +54,7 @@ class GraphService {
                     this.propertyEdges.push({
                         id: propertyEdgeId
                     });
-                    if (!this.appFactory.isItemPushed(propertyNodeId, networkData.nodes)) {
+                    if (!this.appFactory.isNodeExistsInDataset(propertyNodeId, 'id', networkData.nodes)) {
                         networkData.nodes.add({
                             id: propertyNodeId,
                             label: key,
@@ -84,19 +84,27 @@ class GraphService {
         }
         if (jsonData.data.result && jsonData.data.result.data && jsonData.data.result.data.length > 0) {
             jsonData.data.result.data.forEach((item, index) => {
-                if (!this.appFactory.isItemPushed(item.objects[2].id, networkData.nodes)) {
+                if (!this.appFactory.isNodeExistsInDataset(item.objects[2].id, 'id', networkData.nodes)) {
+                    let label = 'Version -NA-';
+                    if (item.objects[2] && item.objects[2].properties) {
+                        if (item.objects[2].properties.version) {
+                            label = item.objects[2].properties.version[0].value;
+                        } else if (item.objects[2].properties.latest_version) {
+                            label = item.objects[2].properties.latest_version[0].value;
+                        }
+                    }
                     networkData.nodes.add({
-                        id: item.objects[2].id,
-                        label: item.objects[2].properties.version[0].value
+                        'id': item.objects[2].id,
+                        'label': label
                     });
                     networkData.edges.add({
-                        from: item.objects[0].id,
-                        to: item.objects[2].id,
-                        id: item.objects[1].id,
-                        label: item.objects[1].label,
-                        arrows: 'to',
-                        font: {
-                            align: 'middle'
+                        'from': item.objects[0].id,
+                        'to': item.objects[2].id,
+                        'id': item.objects[1].id,
+                        'label': item.objects[1].label,
+                        'arrows': 'to',
+                        'font': {
+                            'align': 'middle'
                         }
                     });
                 }
