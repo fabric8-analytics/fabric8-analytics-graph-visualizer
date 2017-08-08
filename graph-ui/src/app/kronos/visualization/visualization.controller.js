@@ -1,10 +1,10 @@
 import vis from 'vis';
 
 class VisualizationController {
-    constructor(appConstants, appService, networkxService) {
+    constructor(appConstants, appService, kronosService) {
         this.constants = appConstants;
         this.appService = appService;
-        this.networkxService = networkxService;
+        this.kronosService = kronosService;
 
         this.options = {
             physics: {
@@ -37,7 +37,8 @@ class VisualizationController {
         if (this.host) {
             this.appService.get(this.host)
                 .then(response => {
-                    this.networkxService.getNetworkData(response)
+                    console.log('response : ', response);
+                    this.kronosService.getNetworkData(response)
                         .then(response => {
                             this.formNetworkVisualization(response);
                         });
@@ -50,7 +51,7 @@ class VisualizationController {
 
     formNetworkVisualization(data) {
         this.setBackupData(data);
-        this.networkContainer = document.getElementById('networkx-container');
+        this.networkContainer = document.getElementById('kronos-container');
         this.network = new vis.Network(this.networkContainer, data, this.options);
     }
 

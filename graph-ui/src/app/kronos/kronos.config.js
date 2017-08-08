@@ -1,12 +1,12 @@
-let networkxConfig = ($stateProvider) => {
+let kronosConfig = ($stateProvider) => {
     $stateProvider
         .state({
-            name: 'home.networkx',
-            url: '/networkx',
+            name: 'home.kronos',
+            url: '/kronos',
             params: {
                 host: null
             },
-            template: '<networkx-component host="$ctrl.host"></networkx-component>',
+            template: '<kronos-component host="$ctrl.host"></kronos-component>',
             controllerAs: '$ctrl',
             controller: function ($stateParams) {
                 this.host = $stateParams.host;
@@ -14,4 +14,4 @@ let networkxConfig = ($stateProvider) => {
         });
 }
 
-export default networkxConfig;
+export default kronosConfig;
