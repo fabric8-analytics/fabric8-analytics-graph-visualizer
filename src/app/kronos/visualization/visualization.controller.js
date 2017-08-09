@@ -25,6 +25,9 @@ class VisualizationController {
                     roundness: 1,
                     type: 'continuous'
                 }
+            },
+            layout: {
+                improvedLayout: false
             }
         };
         this.network = null;
@@ -38,6 +41,7 @@ class VisualizationController {
             this.appService.get(this.host)
                 .then(response => {
                     console.log('response : ', response);
+                    this.kronosService.replaceStringInList('c_', '', response);
                     this.kronosService.getNetworkData(response)
                         .then(response => {
                             this.formNetworkVisualization(response);
@@ -81,6 +85,7 @@ class VisualizationController {
                 border: '#2e6da4'
             }
             this.addIncomingNodes(item, filteredNodes, filteredEdges, otherNodes, otherEdges);
+            this.addOutgoingNodes(item, filteredNodes, filteredEdges, otherNodes, otherEdges);
         });
         filteredNodes = filteredNodes.concat(otherNodes);
         filteredEdges = filteredEdges.concat(otherEdges);
@@ -90,10 +95,25 @@ class VisualizationController {
     }
 
     addIncomingNodes(node, filteredNodes, filteredEdges, otherNodes, otherEdges) {
-        this.networkDataCurrent.edges.forEach(edge => {
-            let nodeToCheck = this.networkDataCurrent.nodes.get(edge.to);
+        this.networkDataOriginal.edges.forEach(edge => {
+            let nodeToCheck = this.networkDataOriginal.nodes.get(edge.to);
             if (node.id === nodeToCheck.id) {
-                let nodeToPush = this.networkDataCurrent.nodes.get(edge.from);
+                let nodeToPush = this.networkDataOriginal.nodes.get(edge.from);
+                if (!this.ifNodeExist(nodeToPush, filteredNodes, otherNodes)) {
+                    otherNodes.push(nodeToPush);
+                }
+                if (!this.ifEdgeExist(edge, filteredEdges, otherEdges)) {
+                    otherEdges.push(edge);
+                }
+            }
+        });
+    }
+
+    addOutgoingNodes(node, filteredNodes, filteredEdges, otherNodes, otherEdges) {
+        this.networkDataOriginal.edges.forEach(edge => {
+            let nodeToCheck = this.networkDataOriginal.nodes.get(edge.from);
+            if (node.id === nodeToCheck.id) {
+                let nodeToPush = this.networkDataOriginal.nodes.get(edge.to);
                 if (!this.ifNodeExist(nodeToPush, filteredNodes, otherNodes)) {
                     otherNodes.push(nodeToPush);
                 }
@@ -106,6 +126,9 @@ class VisualizationController {
 
     getDataSetFormat(nodes, edges) {
         let nodeDataSet = new vis.DataSet({});
+        nodes.forEach((node) => {
+            node['label'] = node['title'];
+        });
         nodeDataSet.add(nodes);
         let edgeDataSet = new vis.DataSet({});
         edgeDataSet.add(edges);
@@ -118,12 +141,12 @@ class VisualizationController {
 
     ifNodeExist(node, filteredNodes, otherNodes) {
         let bool = false;
-        filteredNodes.forEach(function (item) {
+        filteredNodes.forEach((item) => {
             if (item.id === node.id) {
                 bool = true;
             }
         });
-        otherNodes.forEach(function (item) {
+        otherNodes.forEach((item) => {
             if (item.id === node.id) {
                 bool = true;
             }
@@ -133,12 +156,12 @@ class VisualizationController {
 
     ifEdgeExist(edge, filteredEdges, otherEdges) {
         let bool = false;
-        filteredEdges.forEach(function (item) {
+        filteredEdges.forEach((item) => {
             if (item.id === edge.id) {
                 bool = true;
             }
         });
-        otherEdges.forEach(function (item) {
+        otherEdges.forEach((item) => {
             if (item.id === edge.id) {
                 bool = true;
             }
@@ -149,6 +172,7 @@ class VisualizationController {
     reset() {
         this.filterText = '';
         this.network.setData(this.networkDataOriginal);
+        this.networkDataCurrent = null;
     }
 }
 

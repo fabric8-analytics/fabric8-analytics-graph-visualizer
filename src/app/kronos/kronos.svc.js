@@ -45,13 +45,29 @@ class KronosService {
                             font: {
                                 align: 'middle'
                             },
-                            title: fromNodeId + ' TO ' + toNodeId
+                            title: '<span>' + fromNodeId + '<b> TO </b>' + toNodeId + '</span>'
                         });
                     }
                 });
             }
             resolve(this.networkData);
         });
+    }
+
+    replaceStringInList(stringToRemove, stringToReplaceWith, list) {
+        if (list.data && list.data.length > 0) {
+            list.data.forEach((item, index) => {
+                if (typeof item === 'string') {
+                    item.replace(stringToRemove, stringToReplaceWith);
+                } else {
+                    for (let key in item) {
+                        if (item.hasOwnProperty(key)) {
+                            item[key] = item[key].replace(stringToRemove, stringToReplaceWith);
+                        }
+                    }
+                }
+            });
+        }
     }
 }
 
