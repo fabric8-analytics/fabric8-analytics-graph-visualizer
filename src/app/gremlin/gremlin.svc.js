@@ -20,15 +20,31 @@ class GraphService {
             if (jsonData.data.result && jsonData.data.result.data && jsonData.data.result.data.length > 0) {
                 jsonData.data.result.data.forEach((item, index) => {
                     if (!this.appFactory.isNodeExistsInDataset(item.id, 'id', networkData.nodes)) {
-                        let pkgName = '';
-                        if (item.properties.name) {
-                            pkgName = item.properties.name[0].value;
-                        } else if (item.properties.pname) {
-                            pkgName = item.properties.pname[0].value;
+                        let label = '';
+                        let properties = item.properties;
+                        let type = properties.vertex_label ? properties.vertex_label[0].value : '';
+                        label = properties.vertex_label[0].value;
+                        if ( type.toLowerCase() === 'user' ) {
+                            label = 'User : ' + properties.userid[0].value;
+                        }
+                        if ( type.toLowerCase() === 'package' ) {
+                            label = 'Package : ' + properties.name[0].value;
+                        }
+                        if ( type.toLowerCase() === 'version' ) {
+                            let e = properties.pecosystem ? properties.pecosystem[0].value + ' : ': '';
+                            let p = properties.pname ? properties.pname[0].value + ' : ': '';
+                            let v = properties.version ? properties.version[0].value : '';
+                            label = e + p + v;
+                        }
+                        if ( type.toLowerCase() === 'license' ) {
+                            label = 'License : ' + properties.lname[0].value;
+                        }
+                        if ( type.toLowerCase() === 'user_stack' ) {
+                            label = 'Stack : ' + properties.stackid[0].value;
                         }
                         networkData.nodes.add({
                             id: item.id,
-                            label: pkgName
+                            label: label
                         });
                     }
                 });
@@ -56,19 +72,19 @@ class GraphService {
                     });
                     if (!this.appFactory.isNodeExistsInDataset(propertyNodeId, 'id', networkData.nodes)) {
                         networkData.nodes.add({
-                            id: propertyNodeId,
-                            label: key,
-                            shape: 'dot',
-                            size: 10,
-                            title: propertyNodeValue
+                            'id': propertyNodeId,
+                            'label': key,
+                            'shape': 'dot',
+                            'size': 10,
+                            'title': propertyNodeValue
                         });
                         networkData.edges.add({
-                            from: item.id,
-                            label: 'isProperty',
-                            to: propertyNodeId,
-                            id: propertyEdgeId,
-                            font: {
-                                align: 'middle'
+                            'from': item.id,
+                            'label': 'isProperty',
+                            'to': propertyNodeId,
+                            'id': propertyEdgeId,
+                            'font': {
+                                'align': 'middle'
                             }
                         });
                     }
@@ -85,12 +101,25 @@ class GraphService {
         if (jsonData.data.result && jsonData.data.result.data && jsonData.data.result.data.length > 0) {
             jsonData.data.result.data.forEach((item, index) => {
                 if (!this.appFactory.isNodeExistsInDataset(item.objects[2].id, 'id', networkData.nodes)) {
-                    let label = 'Version -NA-';
+                    let label = '';
                     if (item.objects[2] && item.objects[2].properties) {
-                        if (item.objects[2].properties.version) {
-                            label = item.objects[2].properties.version[0].value;
-                        } else if (item.objects[2].properties.latest_version) {
-                            label = item.objects[2].properties.latest_version[0].value;
+                        let properties = item.objects[2].properties;
+                        let type = properties.vertex_label ? properties.vertex_label[0].value : '';
+                        label = properties.vertex_label[0].value;
+                        if ( type.toLowerCase() === 'user' ) {
+                            label = 'User : ' + properties.userid[0].value;
+                        }
+                        if ( type.toLowerCase() === 'package' ) {
+                            label = 'Package : ' + properties.name[0].value;
+                        }
+                        if ( type.toLowerCase() === 'version' ) {
+                            label = properties.pecosystem[0].value + ' : ' + properties.pname[0].value + ' : ' + properties.version[0].value;
+                        }
+                        if ( type.toLowerCase() === 'license' ) {
+                            label = 'License : ' + properties.lname[0].value;
+                        }
+                        if ( type.toLowerCase() === 'user_stack' ) {
+                            label = 'Stack : ' + properties.stackid[0].value;
                         }
                     }
                     networkData.nodes.add({

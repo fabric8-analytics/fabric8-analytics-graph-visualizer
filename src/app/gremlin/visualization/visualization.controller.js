@@ -8,20 +8,27 @@ class VisualizationController {
         this.gremlinService = gremlinService;
         this.options = {
             physics: {
-                stabilization: false,
+                stabilization: true,
                 barnesHut: {
-                    gravitationalConstant: -2000
-                }
+                    gravitationalConstant: -5000,
+                    centralGravity: 2,
+                    springLength: 150,
+                    springConstant: 0.50,
+                    damping: 0.62,
+                    avoidOverlap: 0.6
+                },
+                enabled: true,
+                minVelocity: 0.75
             },
             interaction: {
                 navigationButtons: true,
-                keyboard: true,
+                keyboard: false,
                 hover: true
             },
             edges: {
                 smooth: {
                     forceDirection: 'none',
-                    roundness: 1
+                    roundness: 0
                 }
             }
         };
