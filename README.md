@@ -12,7 +12,7 @@
 
 ### Gremlin
 
-- Use this url as the host name `http://gremlin-http-thread-pool.dev.rdu2c.fabric8.io`
+- Use this url as the host name `http://bayesian-gremlin-http-preview-b6ff-bayesian-preview.b6ff.rh-idev.openshiftapps.com/`
 - Select `Gremlin` from the dropdown.
 - Click button `Proceed`
 - Click `Visualize`

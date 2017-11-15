@@ -112,7 +112,7 @@ class VisualizationController {
         this.gremlinQueryService.buildAdjacentNodesFetchQuery(nodeId);
         this.appService.get(this.gremlinQueryService.getAdjacentNodes)
             .then(response => {
-                this.gremlinService.getAdjacentNodes(response, this.networkDataCurrent);
+                this.gremlinService.getAdjacentNodes(nodeId, response, this.networkDataCurrent);
             });
     }
 
