@@ -1,6 +1,6 @@
 # Instructions
 
-## Steps to build and Run
+## Steps to build and run
 
 1. Open a terminal
 2. Run `npm install`
@@ -8,11 +8,19 @@
 4. Run `npm start`
 5. Application can be accessed at http://localhost:3000
 
+## Steps to build and deploy
+1. Run `npm install`
+2. Run `npm run build`
+3. Run `docker build --rm -t <username>/<name> .`
+4. Run `docker push <username>/<name>`
+
+Use above docker image to create a project in Openshift.
+
 ## Scenarios
 
 ### Gremlin
 
-- Use this url as the host name `http://gremlin-http-thread-pool.dev.rdu2c.fabric8.io`
+- Use this url as the host name `http://bayesian-gremlin-http-preview-b6ff-bayesian-preview.b6ff.rh-idev.openshiftapps.com/`
 - Select `Gremlin` from the dropdown.
 - Click button `Proceed`
 - Click `Visualize`

@@ -93,7 +93,7 @@ class GraphService {
         }
     }
 
-    getAdjacentNodes(data, networkData) {
+    getAdjacentNodes(nodeId, data, networkData) {
         let jsonData = data;
         if (data && typeof data === 'string') {
             jsonData = JSON.parse(data);
@@ -121,21 +121,21 @@ class GraphService {
                         if ( type.toLowerCase() === 'user_stack' ) {
                             label = 'Stack : ' + properties.stackid[0].value;
                         }
+                        networkData.nodes.add({
+                            'id': item.objects[2].id,
+                            'label': label
+                        });
+                        networkData.edges.add({
+                            'from': item.objects[1].outV,
+                            'to': item.objects[1].inV,
+                            'id': item.objects[1].id,
+                            'label': item.objects[1].label,
+                            'arrows': 'to',
+                            'font': {
+                                'align': 'middle'
+                            }
+                        });
                     }
-                    networkData.nodes.add({
-                        'id': item.objects[2].id,
-                        'label': label
-                    });
-                    networkData.edges.add({
-                        'from': item.objects[0].id,
-                        'to': item.objects[2].id,
-                        'id': item.objects[1].id,
-                        'label': item.objects[1].label,
-                        'arrows': 'to',
-                        'font': {
-                            'align': 'middle'
-                        }
-                    });
                 }
             });
         }
